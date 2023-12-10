@@ -1,0 +1,52 @@
+# AI Maze and TicTacToe Game Selector
+
+## Introduction
+
+Welcome to the AI Maze and Tic-Tac-Toe Game Selector project! This project allows users to choose between two games: Maze Solving and Tic-Tac-Toe. The Maze Solving game includes depth-first search (DFS) and A* algorithms to find solutions to mazes, while the Tic-Tac-Toe game allows users to play against the computer using a minimax algorithm.
+
+
+### Prerequisites
+
+Make sure you have Python installed on your machine. The project uses the `tkinter` and `pygame` libraries, which are commonly included in Python installations.
+
+### Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/AI-Maze-and-Tictactoe.git
+
+
+Navigate to the project directory:
+cd AI-Maze-and-Tictactoe
+
+Run the main application:
+python main.py
+
+
+### Usage
+
+Upon running the application, a window titled "Game Selector" will appear.
+Choose between "Maze Solving" and "Tic-Tac-Toe" by clicking the respective buttons.
+Follow the on-screen instructions for each game.
+
+### Maze Solving
+
+Default Maze:
+Click the "Maze Solving" button to solve a default maze (maze2.txt).
+Custom Maze:
+Click the "Upload" button to select and solve a custom maze file.
+
+### Tic-Tac-Toe
+
+Play Tic-Tac-Toe against the computer:
+The game window will appear with a 3x3 grid.
+Click on an empty cell to make your move.
+The computer will respond with its move using the minimax algorithm.
+
+### Important Note
+
+Ensure that maze files are properly formatted. Refer to existing maze files for guidance.
+Contributing. Remember that in case of this program, there can exist only one starting point (A) and one Ending path (B). All the obstacle needs to be represented by #.
+
+If you'd like to contribute to the project, feel free to open an issue or submit a pull request.
