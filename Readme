@@ -17,10 +17,10 @@ Make sure you have Python installed on your machine. The project uses the `tkint
    git clone https://github.com/your-username/AI-Maze-and-Tictactoe.git
 
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 cd AI-Maze-and-Tictactoe
 
-Run the main application:
+3. Run the main application:
 python main.py
 
 
@@ -48,5 +48,7 @@ The computer will respond with its move using the minimax algorithm.
 
 Ensure that maze files are properly formatted. Refer to existing maze files for guidance.
 Contributing. Remember that in case of this program, there can exist only one starting point (A) and one Ending path (B). All the obstacle needs to be represented by #.
+
+### Contributing
 
 If you'd like to contribute to the project, feel free to open an issue or submit a pull request.
